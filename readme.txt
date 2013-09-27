@@ -15,7 +15,6 @@ and the environment variables PETSC_DIR and PETSC_ARCH must be set.
 
 How to build:
 
-CC=${PETSC_DIR}/${PETSC_ARCH}/bin/mpicc
 mkdir build
 cd build
 cmake -D CMAKE_C_COMPILER=${PETSC_DIR}/${PETSC_ARCH}/bin/mpicc ..
