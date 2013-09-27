@@ -25,5 +25,8 @@ make
 Now there should be two executables (hello1, solve1) in the build directory.
 
 Please note that PETSc (by default) uses MPI, so we need to change the
-compiler. This is what the extra argument to cmake does.
+compiler. This is what the extra argument to cmake does. Neglecting to
+change the compiler will lead to MPI-related linking errors.
+
+In the future I might add more example files to this repository.
 
